@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/JCarlosLucio/testing-practice/issues"
   },
-  "homepage": "https://github.com/JCarlosLucio/testing-practice#readme"
+  "homepage": "https://github.com/JCarlosLucio/testing-practice#readme",
+  "devDependencies": {
+    "jest": "^26.3.0"
+  }
 }

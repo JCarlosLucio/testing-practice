@@ -13,4 +13,7 @@ describe('capitalize', () => {
   test('all lowercase', () => {
     expect(capitalize('abc')).toBe('Abc');
   });
+  test('multiple words separated by spaces', () => {
+    expect(capitalize('lorem ipsum dolor')).toBe('Lorem Ipsum Dolor');
+  });
 });

@@ -16,4 +16,7 @@ describe('capitalize', () => {
   test('multiple words separated by spaces', () => {
     expect(capitalize('lorem ipsum dolor')).toBe('Lorem Ipsum Dolor');
   });
+  test('ignore when first char is not a letter', () => {
+    expect(capitalize('5abc')).toBe('5abc');
+  });
 });

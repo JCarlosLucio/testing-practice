@@ -10,4 +10,7 @@ describe('capitalize', () => {
   test('single letter', () => {
     expect(capitalize('a')).toBe('A');
   });
+  test('all lowercase', () => {
+    expect(capitalize('abc')).toBe('Abc');
+  });
 });

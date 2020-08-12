@@ -19,4 +19,10 @@ describe('capitalize', () => {
   test('ignore when first char is not a letter', () => {
     expect(capitalize('5abc')).toBe('5abc');
   });
+  test('number is an error', () => {
+    expect(() => capitalize(1)).toThrow(new Error('Only strings are allowed'));
+  });
+  test('array is an error', () => {
+    expect(() => capitalize([])).toThrow(new Error('Only strings are allowed'));
+  });
 });

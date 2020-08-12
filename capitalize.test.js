@@ -7,4 +7,7 @@ describe('capitalize', () => {
   test('empty string', () => {
     expect(capitalize('')).toBe('');
   });
+  test('single letter', () => {
+    expect(capitalize('a')).toBe('A');
+  });
 });

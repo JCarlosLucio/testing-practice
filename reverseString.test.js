@@ -10,4 +10,7 @@ describe('reverseString', () => {
   test('a word', () => {
     expect(reverseString('odin')).toBe('nido');
   });
+  test('a capitalized word', () => {
+    expect(reverseString('Computer')).toBe('retupmoC');
+  });
 });

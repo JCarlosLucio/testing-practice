@@ -7,4 +7,7 @@ describe('calculator', () => {
   test('substract', () => {
     expect(calculator.substract(5, 4)).toBe(1);
   });
+  test('multiply', () => {
+    expect(calculator.multiply(5, 4)).toBe(20);
+  });
 });

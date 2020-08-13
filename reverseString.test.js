@@ -5,6 +5,6 @@ describe('reverseString', () => {
     expect(reverseString()).toBe('');
   });
   test('empty string', () => {
-    expect(reverseString()).toBe('');
+    expect(reverseString('')).toBe('');
   });
 });

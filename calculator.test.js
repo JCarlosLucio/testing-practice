@@ -10,4 +10,7 @@ describe('calculator', () => {
   test('multiply', () => {
     expect(calculator.multiply(5, 4)).toBe(20);
   });
+  test('divide', () => {
+    expect(calculator.divide(5, 4)).toBe(1.25);
+  });
 });

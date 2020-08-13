@@ -7,4 +7,7 @@ describe('reverseString', () => {
   test('empty string', () => {
     expect(reverseString('')).toBe('');
   });
+  test('a word', () => {
+    expect(reverseString('odin')).toBe('nido');
+  });
 });

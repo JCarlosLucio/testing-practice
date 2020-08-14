@@ -21,4 +21,7 @@ describe('caesar cipher', () => {
   test('small negative shift', function() {
     expect(caesar('Mjqqt, Btwqi!', -5)).toBe('Hello, World!');
   });
+  test('large shift', function() {
+    expect(caesar('The Odin Project!', 153)).toBe('Qeb Lafk Molgbzq!');
+  });
 });

@@ -12,4 +12,7 @@ describe('caesar cipher', () => {
       'Efgfoe uif Fbtu Xbmm pg uif Dbtumf'
     );
   });
+  test('punctuation', function() {
+    expect(caesar('Hello, World!', 1)).toBe('Ifmmp, Xpsme!');
+  });
 });

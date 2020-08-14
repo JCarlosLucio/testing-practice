@@ -15,4 +15,7 @@ describe('caesar cipher', () => {
   test('punctuation', function() {
     expect(caesar('Hello, World!', 1)).toBe('Ifmmp, Xpsme!');
   });
+  test('small shift', function() {
+    expect(caesar('Hello, World!', 5)).toBe('Mjqqt, Btwqi!');
+  });
 });

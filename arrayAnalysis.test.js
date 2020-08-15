@@ -15,4 +15,11 @@ describe('analyze', () => {
       expect(analyze([1, 2, 3, 4]).length).toBe(4);
     });
   });
+  describe('complete object', () => {
+    test('is object', () => {
+      const actual = typeof analyze([0, 10]);
+      const expected = 'object';
+      expect(actual).toEqual(expected);
+    });
+  });
 });

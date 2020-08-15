@@ -11,5 +11,8 @@ describe('analyze', () => {
     test('max', () => {
       expect(analyze([1, 2, 3]).max).toBe(3);
     });
+    test('length', () => {
+      expect(analyze([1, 2, 3, 4]).length).toBe(4);
+    });
   });
 });

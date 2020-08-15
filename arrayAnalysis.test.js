@@ -8,5 +8,8 @@ describe('analyze', () => {
     test('min', () => {
       expect(analyze([1, 2]).min).toBe(1);
     });
+    test('max', () => {
+      expect(analyze([1, 2, 3]).max).toBe(3);
+    });
   });
 });

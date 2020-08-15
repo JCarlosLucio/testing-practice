@@ -5,5 +5,8 @@ describe('analyze', () => {
     test('average', () => {
       expect(analyze([1, 4]).average).toBe(2.5);
     });
+    test('min', () => {
+      expect(analyze([1, 2]).min).toBe(1);
+    });
   });
 });
